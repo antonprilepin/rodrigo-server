@@ -9,7 +9,7 @@ const sharp = require('sharp');
 const app = express();
 const port = 3000;
 
-mongoose.connect('mongodb+srv://dart-hit:qwerty123zxc34@cluster0.ap1ucz1.mongodb.net/spanish-bot', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://dart-hit:qwerty123zxc34@cluster0.ap1ucz1.mongodb.net/rodrigo-bot', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const reviewSchema = new mongoose.Schema({
     file: Buffer,
